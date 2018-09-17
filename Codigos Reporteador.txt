@@ -1,0 +1,19 @@
+String qry = textBox1.Text;
+            OdbcConnection cnx = new OdbcConnection("DSN=Reportes");
+            OdbcCommand cmd = new OdbcCommand(qry, cnx);
+            OdbcDataAdapter adt = new OdbcDataAdapter();
+            DataTable tbl = new DataTable();
+            adt.SelectCommand = cmd;
+            cnx.Open();
+            adt.Fill(tbl);
+            cnx.Close();
+
+            DataSet ds = new DataSet();
+            ds.Tables.Add("empleados");
+            ds.Tables[0].Merge(tbl);
+            ReportDocument rpt = new ReportDocument();
+            rpt.Load(@"C:\Reportes\Empleados.rpt");
+            rpt.SetDataSource(ds);
+
+            Reporteador.Reporteador_Form reporteador = new Reporteador_Form(rpt);
+            reporteador.Show();
