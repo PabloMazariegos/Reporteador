@@ -28,65 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_nuevo = new System.Windows.Forms.Button();
-            this.btn_editar = new System.Windows.Forms.Button();
-            this.btn_buscar = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_buscar = new System.Windows.Forms.TextBox();
             this.lst_explorador = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btn_nuevo
+            // txt_buscar
             // 
-            this.btn_nuevo.Location = new System.Drawing.Point(13, 13);
-            this.btn_nuevo.Name = "btn_nuevo";
-            this.btn_nuevo.Size = new System.Drawing.Size(75, 23);
-            this.btn_nuevo.TabIndex = 0;
-            this.btn_nuevo.Text = "Nuevo";
-            this.btn_nuevo.UseVisualStyleBackColor = true;
-            // 
-            // btn_editar
-            // 
-            this.btn_editar.Location = new System.Drawing.Point(104, 13);
-            this.btn_editar.Name = "btn_editar";
-            this.btn_editar.Size = new System.Drawing.Size(75, 23);
-            this.btn_editar.TabIndex = 1;
-            this.btn_editar.Text = "Editar";
-            this.btn_editar.UseVisualStyleBackColor = true;
-            // 
-            // btn_buscar
-            // 
-            this.btn_buscar.Location = new System.Drawing.Point(468, 13);
-            this.btn_buscar.Name = "btn_buscar";
-            this.btn_buscar.Size = new System.Drawing.Size(75, 23);
-            this.btn_buscar.TabIndex = 2;
-            this.btn_buscar.Text = "Buscar";
-            this.btn_buscar.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(265, 15);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(197, 20);
-            this.textBox1.TabIndex = 3;
+            this.txt_buscar.Location = new System.Drawing.Point(13, 27);
+            this.txt_buscar.Name = "txt_buscar";
+            this.txt_buscar.Size = new System.Drawing.Size(306, 20);
+            this.txt_buscar.TabIndex = 3;
+            this.txt_buscar.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lst_explorador
             // 
             this.lst_explorador.FormattingEnabled = true;
-            this.lst_explorador.Location = new System.Drawing.Point(13, 53);
+            this.lst_explorador.Location = new System.Drawing.Point(12, 62);
             this.lst_explorador.Name = "lst_explorador";
             this.lst_explorador.Size = new System.Drawing.Size(530, 134);
             this.lst_explorador.TabIndex = 4;
+            this.lst_explorador.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lst_explorador_MouseDoubleClick);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 11);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(238, 13);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Ingrese el nombre del reporte que desea buscar: ";
             // 
             // Form_Administrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(574, 202);
+            this.ClientSize = new System.Drawing.Size(574, 219);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lst_explorador);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.btn_buscar);
-            this.Controls.Add(this.btn_editar);
-            this.Controls.Add(this.btn_nuevo);
+            this.Controls.Add(this.txt_buscar);
             this.Name = "Form_Administrador";
             this.Text = "Form_Administrador";
             this.ResumeLayout(false);
@@ -95,11 +75,8 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btn_nuevo;
-        private System.Windows.Forms.Button btn_editar;
-        private System.Windows.Forms.Button btn_buscar;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_buscar;
         private System.Windows.Forms.ListBox lst_explorador;
+        private System.Windows.Forms.Label label1;
     }
 }

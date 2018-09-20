@@ -7,14 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CrystalDecisions.CrystalReports.Engine;
 
 namespace DLL__Reporteador
 {
      partial class Form_Visualizador : Form
     {
-        protected internal Form_Visualizador()
+        protected internal Form_Visualizador(String nombre_rpt)
         {
             InitializeComponent();
+            ReportDocument rpt = new ReportDocument();
+            rpt.Load(@"C:/Reportes/"+nombre_rpt);
+            crystalReportViewer1.ReportSource = rpt;
+            crystalReportViewer1.Refresh();
         }
     }
 }
