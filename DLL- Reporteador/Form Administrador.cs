@@ -35,7 +35,8 @@ namespace DLL__Reporteador
             if (lst_explorador.SelectedIndex >= 0)
             {
                 String rpt_selected = Path.GetFileName(lst_explorador.Items[lst_explorador.SelectedIndex].ToString());
-                MessageBox.Show(rpt_selected);
+                Visualizador vs = new Visualizador();
+                vs.AbrirReporte(rpt_selected + ".rpt");
             }
             
         }
