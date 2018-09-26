@@ -53,3 +53,31 @@ C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Reportea
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\obj\Debug\DLL- Reporteador.dll
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\obj\Debug\DLL- Reporteador.pdb
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\DLL- Reporteador.XML
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\DLL- Reporteador.XML
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\DLL- Reporteador.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\DLL- Reporteador.pdb
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\FlashControlV71.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\bin\Debug\stdole.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\obj\Debug\DLL- Reporteador.csprojResolveAssemblyReference.cache
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\obj\Debug\DLL__Reporteador.Form_Administrador.resources
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\obj\Debug\DLL__Reporteador.Form_Visualizador.resources
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\obj\Debug\DLL- Reporteador.csproj.GenerateResource.Cache
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\obj\Debug\DLL- Reporteador.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\DLL- Reporteador\obj\Debug\DLL- Reporteador.pdb
