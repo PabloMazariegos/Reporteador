@@ -45,6 +45,7 @@
             this.txt_buscar.Size = new System.Drawing.Size(306, 20);
             this.txt_buscar.TabIndex = 3;
             this.txt_buscar.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txt_buscar.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.txt_buscar_HelpRequested);
             // 
             // lst_explorador
             // 
@@ -111,6 +112,7 @@
             this.Controls.Add(this.txt_buscar);
             this.Name = "Form_Administrador";
             this.Text = "Form_Administrador";
+            this.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.Form_Administrador_HelpRequested);
             this.ResumeLayout(false);
             this.PerformLayout();
 

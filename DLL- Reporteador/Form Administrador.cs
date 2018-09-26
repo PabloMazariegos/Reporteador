@@ -188,5 +188,15 @@ namespace DLL__Reporteador
                 }
             }
         }
+
+        private void Form_Administrador_HelpRequested(object sender, HelpEventArgs hlpevent)
+        {
+            Help.ShowHelp(this, "C:/ayuda.chm", "administrador.html");
+        }
+
+        private void txt_buscar_HelpRequested(object sender, HelpEventArgs hlpevent)
+        {
+            Help.ShowHelp(this, "C:/ayuda.chm", "busqueda.html");
+        }
     }
 }
