@@ -112,6 +112,7 @@
             this.Controls.Add(this.txt_buscar);
             this.Name = "Form_Administrador";
             this.Text = "Form_Administrador";
+            this.Load += new System.EventHandler(this.Form_Administrador_Load);
             this.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.Form_Administrador_HelpRequested);
             this.ResumeLayout(false);
             this.PerformLayout();
