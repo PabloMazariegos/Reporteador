@@ -18,7 +18,7 @@ namespace DLL__Reporteador
         protected internal string[] ReportesExistentes;
          ///*******************HECHO POR PABLO MAZARIEGOS***************
          class Conexion{ //clase con la conexion a la base de datos
-            OdbcConnection cnx = new OdbcConnection("Driver ={MySQL ODBC 5.2 ANSI Driver}; Server=104.154.63.216; Database=colchoneria; User=pruebas; Password=umg; Option=3");
+            OdbcConnection cnx = new OdbcConnection("Driver=MySQL ODBC 8.0 ANSI Driver; Server=104.154.63.216; Database=colchoneria; User=pruebas; Password=umg; Option=3");
             String msg_errorPath, msg_errorCambio;
             Boolean errorPath = false, errorCambio = false;
 

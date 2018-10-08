@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLL- Reporteador", "DLL- Reporteador\DLL- Reporteador.csproj", "{90F0FF53-1E32-4CA3-8AA2-002126A8C7B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pruebaDLL", "..\..\..\..\..\..\..\..\..\Documents\Visual Studio 2015\Projects\pruebaDLL\pruebaDLL\pruebaDLL.csproj", "{A8CFA19D-F0BC-46EF-A9BE-EF41086C177F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pruebaDLL", "pruebaDLL\pruebaDLL.csproj", "{B962C8FF-6B99-4B2B-9C39-62D59B14C049}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{90F0FF53-1E32-4CA3-8AA2-002126A8C7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90F0FF53-1E32-4CA3-8AA2-002126A8C7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90F0FF53-1E32-4CA3-8AA2-002126A8C7B6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A8CFA19D-F0BC-46EF-A9BE-EF41086C177F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8CFA19D-F0BC-46EF-A9BE-EF41086C177F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8CFA19D-F0BC-46EF-A9BE-EF41086C177F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8CFA19D-F0BC-46EF-A9BE-EF41086C177F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B962C8FF-6B99-4B2B-9C39-62D59B14C049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B962C8FF-6B99-4B2B-9C39-62D59B14C049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B962C8FF-6B99-4B2B-9C39-62D59B14C049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B962C8FF-6B99-4B2B-9C39-62D59B14C049}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
