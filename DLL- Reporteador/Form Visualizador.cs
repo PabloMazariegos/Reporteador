@@ -15,8 +15,7 @@ namespace DLL__Reporteador
     //**************HECHO POR PABLO MAZARIEGOS******************
      partial class Form_Visualizador : Form
     {
-        OdbcConnection cnx = new OdbcConnection("Driver ={MySQL ODBC 5.2 ANSI Driver}; Server=104.154.63.216; Database=colchoneria;" + //DATOS DEL SERVIDOR
-            "User=pruebas; Password=umg; Option=3");
+        OdbcConnection cnx = new OdbcConnection("Driver=MySQL ODBC 8.0 ANSI Driver; Server=104.154.63.216; Database=colchoneria; User=pruebas; Password=umg; Option=3");
         String msg_errorPath;
         Boolean errorPath = false;
         protected internal String ObtenerPath() //obtiene la ruta actual de la carpeta donde se encuentran los reportes
@@ -49,7 +48,7 @@ namespace DLL__Reporteador
         {
             InitializeComponent();
             ReportDocument rpt = new ReportDocument(); //nuevo documento de reporte
-
+            MessageBox.Show(ObtenerPath()+"/"+nombre_rpt);
             rpt.Load(ObtenerPath()+"/"+nombre_rpt); //se carga el reporte con:  (1) la ruta obtenida del servidor + (2)el nombre del reporte que envia el programador
             crystalReportViewer1.ReportSource = rpt;//se carga al visualizador
             crystalReportViewer1.Refresh(); //se abre el visualizador

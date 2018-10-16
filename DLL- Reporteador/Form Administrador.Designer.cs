@@ -78,6 +78,7 @@
             this.btn_eliminarReporte.TabIndex = 13;
             this.btn_eliminarReporte.Text = "Eliminar Reporte";
             this.btn_eliminarReporte.UseVisualStyleBackColor = true;
+            this.btn_eliminarReporte.Click += new System.EventHandler(this.btn_eliminarReporte_Click);
             // 
             // btn_agregarReporte
             // 
@@ -87,6 +88,7 @@
             this.btn_agregarReporte.TabIndex = 12;
             this.btn_agregarReporte.Text = "Agregar Reporte";
             this.btn_agregarReporte.UseVisualStyleBackColor = true;
+            this.btn_agregarReporte.Click += new System.EventHandler(this.btn_agregarReporte_Click);
             // 
             // btn_cambiarRuta
             // 
@@ -96,6 +98,7 @@
             this.btn_cambiarRuta.TabIndex = 11;
             this.btn_cambiarRuta.Text = "Cambiar Ruta";
             this.btn_cambiarRuta.UseVisualStyleBackColor = true;
+            this.btn_cambiarRuta.Click += new System.EventHandler(this.btn_cambiarRuta_Click);
             // 
             // label2
             // 

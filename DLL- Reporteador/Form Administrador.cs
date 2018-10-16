@@ -167,16 +167,19 @@ namespace DLL__Reporteador
             Conexion cs = new Conexion();
             String selectedPath = "";
             FolderBrowserDialog fbd = new FolderBrowserDialog();
-            if (fbd.ShowDialog() == DialogResult.OK){                   
-                selectedPath = fbd.SelectedPath;                        
-                      
-                selectedPath = Regex.Replace(selectedPath, @"[\\]", "/");   
-                cs.CambiarPath(selectedPath);                                                           
+            if (fbd.ShowDialog() == DialogResult.OK)
+            {
+                selectedPath = fbd.SelectedPath;
+
+                selectedPath = Regex.Replace(selectedPath, @"[\\]", "/");
+                cs.CambiarPath(selectedPath);
                 CargarList();
-            }else{
-                
             }
-            
+            else
+            {
+
+            }
+
         }
 
         //******HECHO POR KEVIN ARGUETA***************
@@ -238,5 +241,7 @@ namespace DLL__Reporteador
         {
             
         }
+
+
     }
 }
