@@ -21,7 +21,13 @@ namespace pruebaDLL
         private void button1_Click(object sender, EventArgs e)
         {
             DLL__Reporteador.Administrador adm = new Administrador();
-            adm.AbrirAdministrador();
+            adm.AbrirAdministrador(3000);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DLL__Reporteador.Visualizador vs = new Visualizador();
+            vs.AbrirReporte(1);
         }
     }
 }

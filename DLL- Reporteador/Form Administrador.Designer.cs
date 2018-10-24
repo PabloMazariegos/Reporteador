@@ -28,119 +28,127 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txt_buscar = new System.Windows.Forms.TextBox();
-            this.lst_explorador = new System.Windows.Forms.ListBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.fbd_browser = new System.Windows.Forms.FolderBrowserDialog();
             this.ofd_files = new System.Windows.Forms.OpenFileDialog();
-            this.btn_eliminarReporte = new System.Windows.Forms.Button();
-            this.btn_agregarReporte = new System.Windows.Forms.Button();
-            this.btn_cambiarRuta = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.txt_buscar = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dt_tabla = new System.Windows.Forms.DataGridView();
+            this.lbl_modulo = new System.Windows.Forms.Label();
+            this.chk_doc = new System.Windows.Forms.CheckBox();
+            this.chk_apl = new System.Windows.Forms.CheckBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dt_tabla)).BeginInit();
             this.SuspendLayout();
-            // 
-            // txt_buscar
-            // 
-            this.txt_buscar.Location = new System.Drawing.Point(12, 86);
-            this.txt_buscar.Name = "txt_buscar";
-            this.txt_buscar.Size = new System.Drawing.Size(237, 20);
-            this.txt_buscar.TabIndex = 3;
-            this.txt_buscar.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            this.txt_buscar.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.txt_buscar_HelpRequested);
-            // 
-            // lst_explorador
-            // 
-            this.lst_explorador.FormattingEnabled = true;
-            this.lst_explorador.Location = new System.Drawing.Point(12, 131);
-            this.lst_explorador.Name = "lst_explorador";
-            this.lst_explorador.Size = new System.Drawing.Size(476, 147);
-            this.lst_explorador.TabIndex = 4;
-            this.lst_explorador.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lst_explorador_MouseDoubleClick);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(11, 70);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(238, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Ingrese el nombre del reporte que desea buscar: ";
             // 
             // ofd_files
             // 
             this.ofd_files.FileName = "openFileDialog1";
             // 
-            // btn_eliminarReporte
-            // 
-            this.btn_eliminarReporte.Location = new System.Drawing.Point(352, 65);
-            this.btn_eliminarReporte.Name = "btn_eliminarReporte";
-            this.btn_eliminarReporte.Size = new System.Drawing.Size(61, 60);
-            this.btn_eliminarReporte.TabIndex = 13;
-            this.btn_eliminarReporte.Text = "Eliminar Reporte";
-            this.btn_eliminarReporte.UseVisualStyleBackColor = true;
-            this.btn_eliminarReporte.Click += new System.EventHandler(this.btn_eliminarReporte_Click);
-            // 
-            // btn_agregarReporte
-            // 
-            this.btn_agregarReporte.Location = new System.Drawing.Point(280, 65);
-            this.btn_agregarReporte.Name = "btn_agregarReporte";
-            this.btn_agregarReporte.Size = new System.Drawing.Size(61, 60);
-            this.btn_agregarReporte.TabIndex = 12;
-            this.btn_agregarReporte.Text = "Agregar Reporte";
-            this.btn_agregarReporte.UseVisualStyleBackColor = true;
-            this.btn_agregarReporte.Click += new System.EventHandler(this.btn_agregarReporte_Click);
-            // 
-            // btn_cambiarRuta
-            // 
-            this.btn_cambiarRuta.Location = new System.Drawing.Point(427, 65);
-            this.btn_cambiarRuta.Name = "btn_cambiarRuta";
-            this.btn_cambiarRuta.Size = new System.Drawing.Size(61, 60);
-            this.btn_cambiarRuta.TabIndex = 11;
-            this.btn_cambiarRuta.Text = "Cambiar Ruta";
-            this.btn_cambiarRuta.UseVisualStyleBackColor = true;
-            this.btn_cambiarRuta.Click += new System.EventHandler(this.btn_cambiarRuta_Click);
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(103, 9);
+            this.label2.Location = new System.Drawing.Point(172, 21);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(267, 25);
             this.label2.TabIndex = 14;
             this.label2.Text = "Administrador de Reportes";
+            // 
+            // txt_buscar
+            // 
+            this.txt_buscar.Location = new System.Drawing.Point(61, 82);
+            this.txt_buscar.Name = "txt_buscar";
+            this.txt_buscar.Size = new System.Drawing.Size(257, 20);
+            this.txt_buscar.TabIndex = 16;
+            this.txt_buscar.TextChanged += new System.EventHandler(this.txt_buscar_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 82);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(43, 13);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "Buscar:";
+            // 
+            // dt_tabla
+            // 
+            this.dt_tabla.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dt_tabla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dt_tabla.Location = new System.Drawing.Point(15, 118);
+            this.dt_tabla.Name = "dt_tabla";
+            this.dt_tabla.ReadOnly = true;
+            this.dt_tabla.Size = new System.Drawing.Size(582, 194);
+            this.dt_tabla.TabIndex = 18;
+            this.dt_tabla.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dt_tabla_MouseDoubleClick);
+            // 
+            // lbl_modulo
+            // 
+            this.lbl_modulo.AutoSize = true;
+            this.lbl_modulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_modulo.Location = new System.Drawing.Point(476, 320);
+            this.lbl_modulo.Name = "lbl_modulo";
+            this.lbl_modulo.Size = new System.Drawing.Size(74, 24);
+            this.lbl_modulo.TabIndex = 19;
+            this.lbl_modulo.Text = "modulo";
+            // 
+            // chk_doc
+            // 
+            this.chk_doc.AutoSize = true;
+            this.chk_doc.Checked = true;
+            this.chk_doc.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chk_doc.Cursor = System.Windows.Forms.Cursors.Default;
+            this.chk_doc.Location = new System.Drawing.Point(342, 84);
+            this.chk_doc.Name = "chk_doc";
+            this.chk_doc.Size = new System.Drawing.Size(81, 17);
+            this.chk_doc.TabIndex = 20;
+            this.chk_doc.Text = "Documento";
+            this.chk_doc.UseVisualStyleBackColor = true;
+            this.chk_doc.CheckedChanged += new System.EventHandler(this.chk_doc_CheckedChanged);
+            this.chk_doc.MouseClick += new System.Windows.Forms.MouseEventHandler(this.chk_doc_MouseClick);
+            // 
+            // chk_apl
+            // 
+            this.chk_apl.AutoSize = true;
+            this.chk_apl.Location = new System.Drawing.Point(456, 85);
+            this.chk_apl.Name = "chk_apl";
+            this.chk_apl.Size = new System.Drawing.Size(122, 17);
+            this.chk_apl.TabIndex = 21;
+            this.chk_apl.Text = "Aplicacion Asociada";
+            this.chk_apl.UseVisualStyleBackColor = true;
+            this.chk_apl.CheckedChanged += new System.EventHandler(this.chk_apl_CheckedChanged);
+            this.chk_apl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.chk_apl_MouseClick);
             // 
             // Form_Administrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(223)))), ((int)(((byte)(167)))));
-            this.ClientSize = new System.Drawing.Size(515, 294);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.btn_eliminarReporte);
-            this.Controls.Add(this.btn_agregarReporte);
-            this.Controls.Add(this.btn_cambiarRuta);
+            this.ClientSize = new System.Drawing.Size(609, 353);
+            this.Controls.Add(this.chk_apl);
+            this.Controls.Add(this.chk_doc);
+            this.Controls.Add(this.lbl_modulo);
+            this.Controls.Add(this.dt_tabla);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.lst_explorador);
             this.Controls.Add(this.txt_buscar);
+            this.Controls.Add(this.label2);
             this.Name = "Form_Administrador";
             this.Text = "Form_Administrador";
-            this.Load += new System.EventHandler(this.Form_Administrador_Load);
-            this.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.Form_Administrador_HelpRequested);
+            ((System.ComponentModel.ISupportInitialize)(this.dt_tabla)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.TextBox txt_buscar;
-        private System.Windows.Forms.ListBox lst_explorador;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FolderBrowserDialog fbd_browser;
         private System.Windows.Forms.OpenFileDialog ofd_files;
-        private System.Windows.Forms.Button btn_eliminarReporte;
-        private System.Windows.Forms.Button btn_agregarReporte;
-        private System.Windows.Forms.Button btn_cambiarRuta;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txt_buscar;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView dt_tabla;
+        private System.Windows.Forms.Label lbl_modulo;
+        private System.Windows.Forms.CheckBox chk_doc;
+        private System.Windows.Forms.CheckBox chk_apl;
     }
 }

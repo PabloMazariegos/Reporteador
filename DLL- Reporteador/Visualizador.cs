@@ -15,10 +15,13 @@ namespace DLL__Reporteador
         /// <summary>
         /// Este metodo abre el visualizador de reportes.
         /// </summary>
-        /// <param name="nombre_rpt">Nombre del reporte que deseas abrir, "COLOCAR la extension .rpt", "ejemplo.rpt"</param>
-        public void AbrirReporte(String nombre_rpt)
+        /// <param name="codigoAplicacion"> Codigo de la aplicacion, para obtener el reporte asociado a dicha aplicacion. </param>
+
+        public void AbrirReporte(int  codigoAplicacion)
         {
-            Form_Visualizador vs = new Form_Visualizador(nombre_rpt);
+            //obtener ruta y nombre del doc asociado a la aplicacion
+            
+            Form_Visualizador vs = new Form_Visualizador(codigoAplicacion);
             vs.Show();
         }
     }

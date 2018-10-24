@@ -12,46 +12,28 @@ using System.Data.Odbc;
 
 namespace DLL__Reporteador
 {
-    //**************HECHO POR PABLO MAZARIEGOS******************
+
      partial class Form_Visualizador : Form
     {
-        OdbcConnection cnx = new OdbcConnection("Driver=MySQL ODBC 8.0 ANSI Driver; Server=104.154.63.216; Database=colchoneria; User=pruebas; Password=umg; Option=3");
-        String msg_errorPath;
-        Boolean errorPath = false;
-        protected internal String ObtenerPath() //obtiene la ruta actual de la carpeta donde se encuentran los reportes
-        {
-            String path = "";
-            try{
-                cnx.Open();
-                OdbcCommand query = cnx.CreateCommand();
-                query.CommandText = "SELECT path from reporteador;";
-                OdbcDataReader dtr = query.ExecuteReader();
-                dtr.Read();
-                path = dtr.GetString(0);// se guarda la ruta del servidor
-                cnx.Close();
-                errorPath = false;
-            }catch (OdbcException ex) { 
-                errorPath = true;
-                msg_errorPath = ex.Message;
-            }
-
-            if (errorPath == true){ //errorPath= true, quiere decir que hubo un error al obtener la ruta de la base de datos
-                errorPath = false;
-                MessageBox.Show(msg_errorPath, "ERROR", MessageBoxButtons.OK);
-                return null;
-            }else{
-                return path; // si no hubo error, retorna el string con la ruta
-            }
-        }
-
-        protected internal Form_Visualizador(String nombre_rpt)
+        public OdbcConnection cnx = new OdbcConnection("DSN=colchoneria");
+        protected internal Form_Visualizador(int CodigoAplicacion)
         {
             InitializeComponent();
-            ReportDocument rpt = new ReportDocument(); //nuevo documento de reporte
-            MessageBox.Show(ObtenerPath()+"/"+nombre_rpt);
-            rpt.Load(ObtenerPath()+"/"+nombre_rpt); //se carga el reporte con:  (1) la ruta obtenida del servidor + (2)el nombre del reporte que envia el programador
-            crystalReportViewer1.ReportSource = rpt;//se carga al visualizador
-            crystalReportViewer1.Refresh(); //se abre el visualizador
+            OdbcDataReader rd;
+            OdbcCommand odbc = new OdbcCommand();
+            odbc.CommandText = "SELECT nombre_doc, ruta FROM TBL_Doc_Asociado WHERE aplicacion_api_codigo = " + CodigoAplicacion+";";
+            cnx.Open();
+            odbc.Connection = cnx;
+            rd = odbc.ExecuteReader();
+            rd.Read();
+            String nombreDoc = rd.GetString(0);
+            String rutaDoc = rd.GetString(1);
+            
+
+            ReportDocument rpt = new ReportDocument();
+            rpt.Load(rutaDoc+"/"+nombreDoc+".rpt");
+            crystalReportViewer1.ReportSource = rpt;
+            crystalReportViewer1.Refresh();
         }
     }
 }

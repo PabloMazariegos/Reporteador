@@ -1,12 +1,9 @@
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\pruebaDLL.exe.config
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\pruebaDLL.exe
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\pruebaDLL.pdb
-C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\DLL- Reporteador.dll
-C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\CrystalDecisions.Windows.Forms.dll
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\CrystalDecisions.Shared.dll
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\CrystalDecisions.ReportSource.dll
-C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\FlashControlV71.dll
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
@@ -18,14 +15,50 @@ C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto C
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
-C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\ShockwaveFlashObjects.dll
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\stdole.dll
-C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\DLL- Reporteador.pdb
-C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\DLL- Reporteador.xml
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\obj\Debug\pruebaDLL.csprojResolveAssemblyReference.cache
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\obj\Debug\pruebaDLL.Form1.resources
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\obj\Debug\pruebaDLL.Properties.Resources.resources
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\obj\Debug\pruebaDLL.csproj.GenerateResource.Cache
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\obj\Debug\pruebaDLL.exe
 C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\obj\Debug\pruebaDLL.pdb
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\DLL- Reporteador.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\FlashControlV71.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\DLL- Reporteador.pdb
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\DLL- Reporteador.xml
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\CapaLogica.dll
+C:\Users\Pablo\Pablo\UMG\OCTAVO CICLO\Analisis de Sistemas 2\proyecto 2\Objeto Comun\Reporteador\Reporteador DLL\Reporteador\pruebaDLL\bin\Debug\CapaDatos.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\pruebaDLL.exe.config
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\obj\Debug\pruebaDLL.exe
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\obj\Debug\pruebaDLL.pdb
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\pruebaDLL.exe
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\pruebaDLL.pdb
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\DLL- Reporteador.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\stdole.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\FlashControlV71.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\DLL- Reporteador.pdb
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\obj\Debug\pruebaDLL.csprojResolveAssemblyReference.cache
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\obj\Debug\pruebaDLL.Form1.resources
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\obj\Debug\pruebaDLL.Properties.Resources.resources
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\obj\Debug\pruebaDLL.csproj.GenerateResource.Cache
+C:\Users\Pablo\Desktop\ReporteadorV2\pruebaDLL\bin\Debug\DLL- Reporteador.xml

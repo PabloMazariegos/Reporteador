@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CapaLogica;
+using System.Data.Odbc;
 
 namespace DLL__Reporteador
 {
@@ -12,13 +14,18 @@ namespace DLL__Reporteador
     public class Administrador
     {
         /// <summary>
-        /// Abre el form del administrador de reportes, en el se encuentran todos los reportes
-        /// y el usuario escoge cual desea abrir.
+        /// Este metodo abre el administrador de reportes si el usuario tiene los permisos.
         /// </summary>
-        public void AbrirAdministrador()
+        /// <param name="codigoModulo"> Codigo de modulo </param>
+
+        public void AbrirAdministrador(int codigoModulo)
         {
-            Form_Administrador admin = new Form_Administrador();
-            admin.Show();            
+            //obtener permisos del usuario
+            //obtener modulo al que esta logueado
+            //cargar rutas de todos los docs asociados al modulo
+
+            Form_Administrador adm = new Form_Administrador(codigoModulo);
+            adm.Show();           
         }
     }
 
