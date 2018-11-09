@@ -27,7 +27,7 @@ namespace pruebaDLL
         private void button2_Click(object sender, EventArgs e)
         {
             DLL__Reporteador.Visualizador vs = new Visualizador();
-            vs.AbrirReporte(1);
+            vs.AbrirReporte(1521);
         }
     }
 }

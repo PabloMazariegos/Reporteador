@@ -16,14 +16,14 @@ namespace DLL__Reporteador {
     using CrystalDecisions.CrystalReports.Engine;
     
     
-    public class CrystalReport1 : ReportClass {
+    public class ReporteNominas : ReportClass {
         
-        public CrystalReport1() {
+        public ReporteNominas() {
         }
         
         public override string ResourceName {
             get {
-                return "CrystalReport1.rpt";
+                return "ReporteNominas.rpt";
             }
             set {
                 // Do nothing
@@ -41,7 +41,7 @@ namespace DLL__Reporteador {
         
         public override string FullResourceName {
             get {
-                return "DLL__Reporteador.CrystalReport1.rpt";
+                return "DLL__Reporteador.ReporteNominas.rpt";
             }
             set {
                 // Do nothing
@@ -90,9 +90,9 @@ namespace DLL__Reporteador {
     }
     
     [System.Drawing.ToolboxBitmapAttribute(typeof(CrystalDecisions.Shared.ExportOptions), "report.bmp")]
-    public class CachedCrystalReport1 : Component, ICachedReport {
+    public class CachedReporteNominas : Component, ICachedReport {
         
-        public CachedCrystalReport1() {
+        public CachedReporteNominas() {
         }
         
         [Browsable(false)]
@@ -129,7 +129,7 @@ namespace DLL__Reporteador {
         }
         
         public virtual CrystalDecisions.CrystalReports.Engine.ReportDocument CreateReport() {
-            CrystalReport1 rpt = new CrystalReport1();
+            ReporteNominas rpt = new ReporteNominas();
             rpt.Site = this.Site;
             return rpt;
         }

@@ -9,8 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.Odbc;
-using System.Text.RegularExpressions;
-using InicioSesion;
+
 
 namespace DLL__Reporteador
 {
@@ -26,7 +25,7 @@ namespace DLL__Reporteador
         public void cargarDataGrid(int codigoModulo)
         {
             this.codigoModulo = codigoModulo;
-            query.CommandText = "SELECT modulo_nombre FROM TBL_Modulo WHERE pk_modulo_codigo=" + codigoModulo + ";";
+            query.CommandText = "SELECT modulo_nombre FROM tbl_modulo WHERE PK_Modulo_codigo=" + codigoModulo + ";";
             cnx.Open();
             query.Connection = cnx;
             DataReader = query.ExecuteReader();
@@ -36,10 +35,10 @@ namespace DLL__Reporteador
             cnx.Close();
 
             String primeroDigito = "" + codigoModulo;
-            String query2 = "SELECT PK_id_Documento AS 'codigo', Nombre_doc AS 'Documento',"
+            String query2 = "SELECT PK_Id_Documento AS 'codigo', Nombre_doc AS 'Documento',"
                 + "Ruta AS 'Ruta',"
-                + "aplicacion_api_codigo AS 'Aplicacion'"
-                + "FROM TBL_Doc_Asociado WHERE aplicacion_api_codigo LIKE '" + primeroDigito[0] + "%'";
+                + "FK_Api_codigo AS 'Aplicacion'"
+                + "FROM tbl_doc_asociado WHERE FK_Api_codigo LIKE '" + primeroDigito[0] + "%'";
             cnx.Open();
             OdbcCommand cmd = new OdbcCommand(query2, cnx);
             DataAdapter = new OdbcDataAdapter(cmd);
@@ -48,15 +47,19 @@ namespace DLL__Reporteador
 
             dt_tabla.DataSource = DataTable;
             dt_tabla.Refresh();
+           
+           
         }
 
         protected internal Form_Administrador(int codigoModulo)
         {
+            
+            
             InitializeComponent();
             cargarDataGrid(codigoModulo);
-            
 
-            
+
+
         }
 
         private void txt_buscar_TextChanged(object sender, EventArgs e)

@@ -102,7 +102,7 @@
             <summary>
             Este metodo abre el visualizador de reportes.
             </summary>
-            <param name="codigoAplicacion"> Codigo de la aplicacion, para obtener el reporte asociado a dicha aplicacion. </param>
+            <param name="codigoAplicacion"> Codigo de la aplicacion(form), para obtener el reporte asociado a dicha aplicacion. </param>
         </member>
     </members>
 </doc>

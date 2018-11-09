@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CapaLogica;
 using System.Data.Odbc;
+using System.Windows.Forms;
 
 namespace DLL__Reporteador
 {
@@ -23,9 +24,20 @@ namespace DLL__Reporteador
             //obtener permisos del usuario
             //obtener modulo al que esta logueado
             //cargar rutas de todos los docs asociados al modulo
-
-            Form_Administrador adm = new Form_Administrador(codigoModulo);
-            adm.Show();           
+            OdbcConnection cnx = new OdbcConnection("DSN=colchoneria");
+            OdbcDataReader DataReader = null;
+            OdbcCommand query = new OdbcCommand();
+            query.CommandText = "SELECT modulo_nombre FROM tbl_modulo WHERE PK_Modulo_codigo=" + codigoModulo + ";";
+            cnx.Open();
+            query.Connection = cnx;
+            DataReader = query.ExecuteReader();
+            if (DataReader.Read())
+            {
+                Form_Administrador adm = new Form_Administrador(codigoModulo);
+                adm.Show();
+            }else{
+                MessageBox.Show("Codigo De Modulo Incorrecto");  
+            }       
         }
     }
 
