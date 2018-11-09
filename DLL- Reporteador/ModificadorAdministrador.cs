@@ -30,36 +30,44 @@ namespace DLL__Reporteador
 
         private void btn_modificar_Click(object sender, EventArgs e)
         {
-            OdbcConnection cnx = new OdbcConnection("DSN=colchoneria");
-            String newDoc, newRuta, newApp, query, modulo;
+            if(txt_app.Text=="" || txt_doc.Text=="" || txt_ruta.Text=="")
+            {
+                MessageBox.Show("LLene todos los campos");
+            }else
+            {
+                OdbcConnection cnx = new OdbcConnection("DSN=colchoneria");
+                String newDoc, newRuta, newApp, query, modulo;
 
-            newDoc = txt_doc.Text;
-            newRuta = txt_ruta.Text;
-            newApp = txt_app.Text;
-            query = "UPDATE tbl_doc_asociado SET "
-                +"Nombre_doc='"+newDoc+"',"
-                +"Ruta='"+newRuta+"',"
-                + "FK_Api_codigo='" + newApp+"' "
-                +"WHERE (PK_Id_Documento="+codigo+");";
-            modulo = newApp;
-            try
-            {
-                cnx.Open();
-                OdbcCommand cmd = new OdbcCommand();
-                cmd.CommandText = query;
-                cmd.Connection = cnx;
-                cmd.ExecuteNonQuery();
-                cnx.Close();
-                MessageBox.Show(this,"Cambios Realizados!");
-                Form_Administrador adm = new Form_Administrador(codigoModulo);
-                adm.Show();
-                adm.Location = this.Location;
-                this.Dispose();
-                
-            }catch(OdbcException ex)
-            {
-                MessageBox.Show(ex.ToString(),"Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                newDoc = txt_doc.Text;
+                newRuta = txt_ruta.Text;
+                newApp = txt_app.Text;
+                query = "UPDATE tbl_doc_asociado SET "
+                    + "Nombre_doc='" + newDoc + "',"
+                    + "Ruta='" + newRuta + "',"
+                    + "FK_Api_codigo='" + newApp + "' "
+                    + "WHERE (PK_Id_Documento=" + codigo + ");";
+                modulo = newApp;
+                try
+                {
+                    cnx.Open();
+                    OdbcCommand cmd = new OdbcCommand();
+                    cmd.CommandText = query;
+                    cmd.Connection = cnx;
+                    cmd.ExecuteNonQuery();
+                    cnx.Close();
+                    MessageBox.Show(this, "Cambios Realizados!");
+                    Form_Administrador adm = new Form_Administrador(codigoModulo);
+                    adm.Show();
+                    adm.Location = this.Location;
+                    this.Dispose();
+
+                }
+                catch (OdbcException ex)
+                {
+                    MessageBox.Show(ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
+            
             
         }
 
