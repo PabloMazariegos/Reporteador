@@ -134,6 +134,9 @@
             this.Controls.Add(this.label2);
             this.Name = "Form_Administrador";
             this.Text = "Form_Administrador";
+            this.Activated += new System.EventHandler(this.Form_Administrador_Activated);
+            this.Shown += new System.EventHandler(this.Form_Administrador_Shown);
+            this.Enter += new System.EventHandler(this.Form_Administrador_Enter);
             ((System.ComponentModel.ISupportInitialize)(this.dt_tabla)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

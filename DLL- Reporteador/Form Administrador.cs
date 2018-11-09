@@ -22,18 +22,10 @@ namespace DLL__Reporteador
         DataTable DataTable = new DataTable();
         int Search = 1, codigoModulo = 0;
 
-        public void cargarDataGrid(int codigoModulo)
-        {
-            this.codigoModulo = codigoModulo;
-            query.CommandText = "SELECT modulo_nombre FROM tbl_modulo WHERE PK_Modulo_codigo=" + codigoModulo + ";";
-            cnx.Open();
-            query.Connection = cnx;
-            DataReader = query.ExecuteReader();
-            DataReader.Read();
-            String str = DataReader.GetString(0);
-            lbl_modulo.Text = str;
-            cnx.Close();
 
+        public void RefreshGrid()
+        {
+            
             String primeroDigito = "" + codigoModulo;
             String query2 = "SELECT PK_Id_Documento AS 'codigo', Nombre_doc AS 'Documento',"
                 + "Ruta AS 'Ruta',"
@@ -47,17 +39,31 @@ namespace DLL__Reporteador
 
             dt_tabla.DataSource = DataTable;
             dt_tabla.Refresh();
+        }
+
+        public void cargarDataGrid(int codigoModulo)
+        {
+            this.codigoModulo = codigoModulo;
+            query.CommandText = "SELECT modulo_nombre FROM tbl_modulo WHERE PK_Modulo_codigo=" + codigoModulo + ";";
+            cnx.Open();
+            query.Connection = cnx;
+            DataReader = query.ExecuteReader();
+            DataReader.Read();
+            String str = DataReader.GetString(0);
+            lbl_modulo.Text = str;
+            cnx.Close();
+
+            RefreshGrid();
            
            
         }
 
         protected internal Form_Administrador(int codigoModulo)
         {
-            
-            
+
+            this.codigoModulo = codigoModulo;
             InitializeComponent();
             cargarDataGrid(codigoModulo);
-
 
 
         }
@@ -112,6 +118,21 @@ namespace DLL__Reporteador
             }
         }
 
+        private void Form_Administrador_Activated(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Form_Administrador_Shown(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Form_Administrador_Enter(object sender, EventArgs e)
+        {
+            
+        }
+
         private void dt_tabla_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             int index = dt_tabla.CurrentRow.Index;
@@ -121,6 +142,8 @@ namespace DLL__Reporteador
             String aplicacion = dt_tabla.Rows[index].Cells[3].Value.ToString();
             ModificadorAdministrador md = new ModificadorAdministrador(codigoModulo, codigo,documento, ruta, aplicacion);
             md.Show();
+            md.Location = this.Location;
+            this.Dispose();
         }
 
     }

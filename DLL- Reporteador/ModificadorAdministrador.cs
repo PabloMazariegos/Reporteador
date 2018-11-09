@@ -36,10 +36,10 @@ namespace DLL__Reporteador
             newDoc = txt_doc.Text;
             newRuta = txt_ruta.Text;
             newApp = txt_app.Text;
-            query = "UPDATE TBL_Doc_Asociado SET "
+            query = "UPDATE tbl_doc_asociado SET "
                 +"Nombre_doc='"+newDoc+"',"
                 +"Ruta='"+newRuta+"',"
-                +"aplicacion_api_codigo='"+newApp+"' "
+                + "FK_Api_codigo='" + newApp+"' "
                 +"WHERE (PK_Id_Documento="+codigo+");";
             modulo = newApp;
             try
@@ -50,10 +50,12 @@ namespace DLL__Reporteador
                 cmd.Connection = cnx;
                 cmd.ExecuteNonQuery();
                 cnx.Close();
-                MessageBox.Show("Cambios Realizados!");
+                MessageBox.Show(this,"Cambios Realizados!");
+                Form_Administrador adm = new Form_Administrador(codigoModulo);
+                adm.Show();
+                adm.Location = this.Location;
                 this.Dispose();
-                Administrador adm = new Administrador();
-                adm.AbrirAdministrador(codigoModulo);
+                
             }catch(OdbcException ex)
             {
                 MessageBox.Show(ex.ToString(),"Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
@@ -71,7 +73,7 @@ namespace DLL__Reporteador
         /// <param name="ruta"></param>
         /// <param name="aplicacion"></param>
 
-        public ModificadorAdministrador(int codigoModulo, int codigo, String documento, String ruta, String aplicacion)
+        protected internal ModificadorAdministrador(int codigoModulo, int codigo, String documento, String ruta, String aplicacion)
         {
             InitializeComponent();
             this.codigoModulo = codigoModulo;
